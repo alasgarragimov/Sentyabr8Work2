@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+.main_container {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.basic_cont {
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.basic_title_cont {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.basic_title_cont h1 {
+    font-size: 26px;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.basic_title_cont p {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.basic_title_cont ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.basic_cont button {
+    margin: 0 auto;
+    width: 60%;
+    padding: 8px 14px;
+    border-radius: 14px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+}
+
+
+/* ################# STANDARD PLAN ################ */
+
+.standart_cont {
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.standart_title_cont {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.standart_title_cont h1 {
+    font-size: 26px;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.standart_title_cont p {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.standart_title_cont ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.standart_cont button {
+    margin: 0 auto;
+    width: 60%;
+    padding: 8px 14px;
+    border-radius: 14px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+}
+
+
+/* ################ PREMIUM PLAN ##############3 */
+
+.premium_cont {
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.premium_title_cont {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.premium_title_cont h1 {
+    font-size: 26px;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.premium_title_cont p {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.premium_title_cont ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.premium_cont button {
+    margin: 0 auto;
+    width: 60%;
+    padding: 8px 14px;
+    border-radius: 14px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+}
