@@ -5,14 +5,14 @@
 .main_container {
     height: 500px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .basic_cont {
     border-radius: 12px;
     border: 1px solid black;
-    height: 300px;
+    height: 350px;
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -20,12 +20,11 @@
 }
 
 .basic_title_cont {
-    height: 200px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
     align-items: center;
     justify-content: center;
+    gap: 12px;
 }
 
 .basic_title_cont h1 {
@@ -49,7 +48,7 @@
 .basic_cont button {
     margin: 0 auto;
     width: 60%;
-    padding: 8px 14px;
+    padding: 8px 12px;
     border-radius: 14px;
     border: none;
     background-color: orange;
@@ -62,7 +61,7 @@
 .standart_cont {
     border-radius: 12px;
     border: 1px solid black;
-    height: 300px;
+    height: 350px;
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -70,12 +69,11 @@
 }
 
 .standart_title_cont {
-    height: 200px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
     align-items: center;
     justify-content: center;
+    gap: 12px;
 }
 
 .standart_title_cont h1 {
@@ -99,7 +97,7 @@
 .standart_cont button {
     margin: 0 auto;
     width: 60%;
-    padding: 8px 14px;
+    padding: 8px 12px;
     border-radius: 14px;
     border: none;
     background-color: orange;
@@ -112,7 +110,7 @@
 .premium_cont {
     border-radius: 12px;
     border: 1px solid black;
-    height: 300px;
+    height: 350px;
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -120,10 +118,9 @@
 }
 
 .premium_title_cont {
-    height: 200px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 12px;
     align-items: center;
     justify-content: center;
 }
@@ -149,7 +146,7 @@
 .premium_cont button {
     margin: 0 auto;
     width: 60%;
-    padding: 8px 14px;
+    padding: 8px 12px;
     border-radius: 14px;
     border: none;
     background-color: orange;
